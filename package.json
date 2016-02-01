@@ -1,0 +1,22 @@
+{
+  "name": "MyParse",
+  "version": "1.0.0",
+  "description": "Parse Server on Heroku",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ta2yak/MyParse"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.2.x",
+    "parse": "~1.6.12",
+    "parse-server": "~2.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.1"
+  }
+}
